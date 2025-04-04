@@ -8,7 +8,7 @@ import UsingGridWithJson from "./gridjson/UsingGridWithJson";
 
   console.log("starting the cool->app");
 
-  //let init = new Initialize();
+  let init = new Initialize();
 
   new UsingGridWithJson();
 
