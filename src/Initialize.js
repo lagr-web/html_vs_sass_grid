@@ -1,8 +1,9 @@
 
 export default class Initialize {
-  constructor() {
-    document.body.innerHTML += `
 
+  constructor() {
+
+    document.body.innerHTML += `
 
 <div class="headline">Enkel Grid med 3 kolonner og 2 rækker</div> 
  <div class="grid-1">
@@ -81,7 +82,7 @@ export default class Initialize {
  `;
 
     const container = document.createElement("div");
-    container.className = "container";
+    container.id = "container";
     document.body.appendChild(container);
   } // END constructor
 } // END class

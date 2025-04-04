@@ -7,6 +7,8 @@ class UsingGridWithJson {
 
   constructor() {
 
+    
+
     const parentContainer = document.createElement("main");
     parentContainer.id = "parentContainer";
     document.body.appendChild(parentContainer);
