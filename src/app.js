@@ -1,5 +1,4 @@
 import Initialize from "./Initialize";
-import "../css/style.scss";
 import UsingGridWithJson from "./gridjson/UsingGridWithJson";
 
 // **  IIFE: Immediately Invoked Function Expression  */

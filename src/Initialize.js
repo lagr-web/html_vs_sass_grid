@@ -1,3 +1,4 @@
+import "../css/style.scss";
 
 export default class Initialize {
 
