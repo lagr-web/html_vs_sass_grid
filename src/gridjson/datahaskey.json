@@ -1,0 +1,25 @@
+{
+
+    "content":[
+
+        {
+            "id":"infoOne",
+            "name":"poul",
+            "img":"ninja.png",
+            "text":"der var engang en mand der hed poul"
+        },
+
+        {
+            "id":"infoTwo",
+            "name":"Eva",
+            "img":"ninja.png"
+     
+        },
+        {
+            "id":"infoThree",
+            "name":"Eva"
+    
+        }
+
+    ]
+}

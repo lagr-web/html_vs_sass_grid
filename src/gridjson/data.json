@@ -1,0 +1,26 @@
+{
+
+    "content":[
+
+        {
+            "id":"infoOne",
+            "name":"poul",
+            "img":"",
+            "text":"der var engang en mand der hed poul"
+        },
+
+        {
+            "id":"infoTwo",
+            "name":"Eva",
+            "img":"ninja.png",
+            "text":"der var engang en mand der hed King The Kong"
+        },
+        {
+            "id":"infoThree",
+            "name":"Eva",
+            "img":"",
+            "text":"funny"
+        }
+
+    ]
+}
