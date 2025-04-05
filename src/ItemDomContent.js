@@ -1,8 +1,7 @@
 class ItemDomContent {
 
     constructor(item, parent) {
-      console.log(item);
-  
+
       this.item = item;
       this.parent = parent; // Brug den eksisterende parent (childContainer)
   
@@ -15,11 +14,11 @@ class ItemDomContent {
       };
   
       this.render(); // Kald render-metoden for at begynde at tilføje indhold
-    }
+
+    }//end constructor
   
     render() {
       for (let key in this.item) { // for-in loop over this item
-
         if (this.renderMap[key]) {
           this.renderMap[key].call(this, this.item[key]);
         }
@@ -44,7 +43,8 @@ class ItemDomContent {
       video.src = `../../assets/${filename}`;
       this.parent.appendChild(video); // Brug this.parent (childContainer) direkte
     }
-  }
+
+  }//end class
   
   export default ItemDomContent;
   
