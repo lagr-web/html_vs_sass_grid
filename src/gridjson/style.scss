@@ -2,9 +2,9 @@
     
     font-size: clamp(.5rem, 1vw + .5rem, 1.5rem);
 /* 
-1rem: minimum størrelse  
-2vw + 1rem: skalerer med viewport width (vw)
-3rem: maksimum størrelse */
+.5rem: minimum størrelse  
+1vw + .5rem: skalerer med viewport width (vw)
+1.5rem: maksimum størrelse */
    
 
     display: grid;
